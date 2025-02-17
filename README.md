@@ -2,7 +2,27 @@
 
 This pipeline demonstrates a complete ETL (Extract, Transform, Load) workflow using Prefect and AWS S3. It processes GitHub repository data through multiple stages of transformation and validation.
 
-## Prerequisites
+## Getting Started
+
+### Setting up your environment
+
+1. Install uv (if not already installed):
+   ```bash
+   pip install uv
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   uv venv
+   source .venv/bin/activate  # On Unix/macOS
+   # or
+   .venv\Scripts\activate  # On Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   uv pip install -r requirements.txt
+   ```
 
 ### Requirements
 ```
