@@ -49,3 +49,7 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db 
+
+# Prefect
+.prefect/
+${PREFECT_HOME}/

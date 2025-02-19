@@ -158,12 +158,7 @@ The pipeline includes email notifications for:
 
 ## Usage
 
-1. For direct use with preset configuration:
-   ```bash
-   python hello.py
-   ```
-
-2. For customized configuration:
+1. For customized configuration:
    - Copy `example-etl.py`
    - Update configuration variables at the top
    - Run:
